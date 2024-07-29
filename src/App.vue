@@ -8,7 +8,7 @@
       </div>
       <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 mb-6" role="alert">
         <p class="font-bold">Chave Pix para pagamento:</p>
-        <p class="text-2xl">exemplo@pix.com</p>
+        <p class="text-2xl">039.706.772-03</p>
       </div>
       <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mb-6" role="alert">
         <p class="font-bold">Atenção:</p>
