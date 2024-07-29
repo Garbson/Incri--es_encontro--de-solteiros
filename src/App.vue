@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-6">
     <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-      <h1 class="text-2xl font-bold mb-6 text-center">Inscrição para Encontro de Casais</h1>
+      <h1 class="text-2xl font-bold mb-6 text-center">Inscrição para Encontro de Solteiros</h1>
       <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 mb-6" role="alert">
         <p class="font-bold">Valor da inscrição:</p>
         <p class="text-2xl">60 reais</p>
