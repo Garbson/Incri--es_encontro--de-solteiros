@@ -56,9 +56,9 @@
           />
         </div>
         <div class="mb-4">
-          <label for="church" class="block text-gray-700">Igreja:</label>
+          <label for="church" class="block text-gray-700">Distrito:</label>
           <input
-            v-model="form.church"
+            v-model="form.Distrito"
             type="text"
             id="church"
             class="mt-1 p-2 w-full border rounded-md"
@@ -92,7 +92,7 @@ import { reactive } from "vue";
 const form = reactive({
   name: "",
   age: "",
-  church: "",
+  Distrito: "",
   phone: "",
 });
 
@@ -107,7 +107,7 @@ const generateWhatsappURL = () => {
   const text = `
 Nome Completo: ${form.name}
 Idade: ${form.age}
-Igreja: ${form.church}
+Distrito: ${form.Distrito}
 Telefone: ${form.phone}
   `;
   return `${baseUrl}${phone}?text=${encodeURIComponent(text.trim())}`;
